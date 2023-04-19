@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap"
 export default function Footer(){
 
     const currentYear= new Date().getFullYear();
-    const gitHubUrl= "https://github.com/v-cazeau/"
+    const gitHubUrl= "https://github.com/v-cazeau/profile-app"
 
     return (
         <footer>
