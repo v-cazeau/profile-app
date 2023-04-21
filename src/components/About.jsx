@@ -1,10 +1,8 @@
 import { useState } from "react";
-import { Button, Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function About() {
-   const [imgUrl, setImgUrl]=useState("/images/img_04592.jpg"); 
-
-
+ 
     return(
         <main>
             <Container>
