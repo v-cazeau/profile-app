@@ -1,5 +1,6 @@
 body {
     background-color: aliceblue;
+    background-image: url("../public/images/pbg.jpg");
 }
 
 h1 {
@@ -28,9 +29,13 @@ h2 {
 }
 
 .grid-container {
-    background-color: coral;
+    background-color: rgba(80, 208, 255, 0.232);
 }
 
 .grid-container h2 {
     color: whitesmoke
+}
+
+mark {
+    background-color: rgba(250, 235, 215, 0.539);
 }

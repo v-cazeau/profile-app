@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button, Container, Row, Col } from "react-bootstrap";
 
 export default function About() {
-   const [imgUrl, setImgUrl]=useState("https://picsum.photos/200/300"); 
+   const [imgUrl, setImgUrl]=useState("/images/img_04592.jpg"); 
 
 
     return(
@@ -10,15 +10,15 @@ export default function About() {
             <Container>
                 <Row className="text-center">
                     <Col sm={12} md={6}>
-                        <img src={imgUrl} 
+                        <img src="/images/bp.jpg" 
                             className="rounded-circle"
-                            alt="Profile" />
+                            alt="" />
                     </Col>
-                    <Button onClick={() => setImgUrl("https://picsum.photos/400/400?random=1")}> Change 4 Image </Button>
-                    <Button onClick={() => setImgUrl("https://picsum.photos/300/300")}> Change 3 Image </Button>
+                    
                     <Col>
                         <h1 className="mt-3">Véronie Cazeau</h1>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, amet explicabo! Quam adipisci voluptas qui earum illum recusandae, magnam ullam porro, assumenda sed laborum dolore dolor minus praesentium quas quisquam?</p>
+                        <h2>About</h2>
+                       <p> <mark> Multifaceted, like a parfait. Born in Miami, grew up in Worcester, college in Philly, in Florida once again, for loop. I previously was a massage therapist. Currently, becoming a software engineer. I come from a big, diverse family and I am part of the first-generation born in the United States. I enjoy getting creative and being outdoors, including nature hikes and listening to island music. My goal after school is to become a junior engineer with a focus on achieving a work-life balance.</mark> </p>
                     </Col>
                 </Row>
             </Container>

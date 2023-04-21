@@ -7,16 +7,20 @@ export default function Grid() {
             <Container fluid className="grid-container"> 
                 <Row className= "p-3">
                     <Col sm={12} md={4}>
-                        <h2>Why BC?</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis porro rerum tenetur dicta laboriosam, dolores, molestiae cum itaque quaerat repudiandae voluptatibus explicabo harum distinctio ipsa fugit deleniti esse voluptas dolorum.</p>
+                        <h2>Why Boca Code?</h2>
+                        <p>The school was in-person and I was set on becoming a Software Engineer. </p>
                     </Col>
                     <Col sm={12} md={4}>
-                        <h2>Exciting Project?</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sed asperiores maxime inventore voluptatem unde numquam. Perferendis pariatur, nobis veniam eaque ducimus in quaerat quasi odio autem vero omnis ratione.</p>
+                        <h2>Exciting Projects</h2>
+                        <ul>
+                            <li>Office Zen</li>
+                            <li>Wellness App</li>
+                            <li>SoundBoard App</li>
+                        </ul>
                     </Col>
                     <Col sm={12} md={4}>
                         <h2>Ideal Work Place?</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ab ipsum blanditiis sed expedita quo eveniet rem mollitia corrupti placeat sapiente, ipsam delectus pariatur molestias, eos incidunt animi sit nobis?</p>
+                        <p>Hybrid, WFH & in Office. Preferably Tuesday, Wednesday, Thursday  OR  a Monday to Thurday, four day week, working week in office.</p>
                     </Col>
                 </Row>
             </Container>

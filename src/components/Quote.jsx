@@ -7,7 +7,7 @@ export default function Quote() {
             <Container className="quote-container">
                 <Row className="text-center">
                     <Col>
-                        <p><q>fokajdflkasdfja</q> -MG</p>
+                        <p><q> Hakuna Matata </q> -Timon & Pumba</p>
                     </Col>
                 </Row>
             </Container>
