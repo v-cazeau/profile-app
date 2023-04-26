@@ -1,4 +1,4 @@
-// import HeroBanner from "./components/HeroBanner.jsx"
+import HeroBanner from "./components/HeroBanner.jsx"
 import About from "./components/About.jsx"
 import Quote from "./components/Quote.jsx"
 import Grid from "./components/Grid.jsx"
@@ -14,7 +14,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      {/* <HeroBanner /> */}
+      <HeroBanner />
       <About />
       <Quote />
       <Grid />

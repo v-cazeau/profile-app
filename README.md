@@ -1,4 +1,4 @@
-# An About Profile
+# An About Me Profile
 
 ## Components  
 * Built in React.js

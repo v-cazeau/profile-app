@@ -4,11 +4,10 @@ export default function HeroBanner() {
 
     return(
         <section>
-            <Container fluid className="bg-danger">
+            <Container fluid className="hero-banner">
                 <Row> 
-                    <Col> 
-                        <img src=""
-                            alt="hero-img"/>
+                    <Col className="text-center"> 
+                            Email: veronie.cazeau@gmail.com
                     </Col>
                 </Row>
             </Container>

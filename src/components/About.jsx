@@ -1,16 +1,30 @@
-// import { useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { useState } from "react";
+import { Container, Row, Col, } from "react-bootstrap";
 
 export default function About() {
+
+    // Next; debug
+    // const[imageIndex, setImageIndex] = useState(0);
  
+    // const imageArray = [
+    //     "profile1.jpg",
+    //     "profile2.jpg", 
+    //     "profile3.jpg"
+    // ];
+
+    // if (imageIndex >= imageArray.length)
+    //     setImageIndex(0); 
+
     return(
         <main>
             <Container>
                 <Row className="text-center">
                     <Col sm={12} md={6}>
-                        <img src="/images/bp.jpg" 
+                        <img src= {`/images/profile3.jpg`}
                             className="rounded-circle"
-                            alt="" />
+                            alt="Clickable Picture, Véronie Cazeau" />
+                            {/*  Add to code next
+                             fluid onClick={ () => setImageIndex (imageIndex + 1)} */}
                     </Col>
                     
                     <Col className="about">
