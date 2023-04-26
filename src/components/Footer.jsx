@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap"
-
-// import { GitHub } from "react-bootstrap-icons"
+import { GitHub } from "react-bootstrap-icons"
 
 export default function Footer(){
 
@@ -11,13 +10,17 @@ export default function Footer(){
         <footer>
             <Container> 
                 <Row> 
-                    <Col className="text-center"> 
+                    <Col 
+                    className="text-center">
                     <p>&copy; {currentYear} Véronie Cazeau
                     <br />
-                    {/* <GitHub/>  */}
+                    {/* <GitHub 
+                        color= "white"
+                        size={20}/> 
                     <a href={gitHubUrl}
                         target="_blank"
-                        rel="noreferrer">Code in GitHub</a>
+                        rel="noreferrer"
+                        className="button-effect">Code in GitHub</a> */}
                         </p>
                     </Col>
                 </Row>

@@ -2,7 +2,7 @@
 import About from "./components/About.jsx"
 import Quote from "./components/Quote.jsx"
 import Grid from "./components/Grid.jsx"
-// import PictCarousel from "./components/PictCarousel.jsx"
+import PictCarousel from "./components/PictCarousel.jsx"
 import Video from "./components/Video.jsx"
 import Footer from "./components/Footer.jsx"
 
@@ -18,7 +18,7 @@ function App() {
       <About />
       <Quote />
       <Grid />
-      {/* <PictCarousel /> */}
+      <PictCarousel /> 
       <Video />
       <Footer />
     </div>

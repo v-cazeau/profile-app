@@ -1,14 +1,32 @@
 body {
     background-color: aliceblue;
     background-image: url("../public/images/pbg.jpg");
+    font-family: 'Caveat', cursive;
+}
+
+main img {
+    /* width: 300px;
+    height: 300px; */
+    /* object-fit: scale-down; */
+    /* object-fit: contain; 
+    display: block;
+    object-position: 100%; */
+    
 }
 
 h1 {
     font-weight: 900;
+    font-size: 50px;
+    color:rgb(230, 219, 0);
+    padding-top: 7px;
 }
 
 h2 {
-    font-weight: 700;
+    font-weight: 800;
+    font-size: 34px;
+    padding: 17px;
+    color: aliceblue;
+
 }
 
 .container {
@@ -22,14 +40,18 @@ h2 {
 .quote-container p {
     font-size: clamp(23px, 4vw, 26px);
     font-weight:700;
+    color: aliceblue;
 }
 
 .quote-container q {
-    font-size: 105%; 
+    font-size: 200%; 
+    color: aliceblue; 
 }
 
 .grid-container {
     background-color: rgba(80, 208, 255, 0.232);
+    color: aliceblue;
+    font-size: 17px; 
 }
 
 .grid-container h2 {
@@ -37,5 +59,12 @@ h2 {
 }
 
 mark {
-    background-color: rgba(250, 235, 215, 0.539);
+    background-color: rgba(12, 15, 12, 0);
+    color: aliceblue;
+    font-size: 22px;
+}
+
+footer {
+    color: aliceblue;
+    font-size: 15px;
 }
